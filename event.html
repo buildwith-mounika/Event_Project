@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EventGo</title>
+  <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Eve-nt-Go</div>
+    <nav>
+      <a href="#events">Events</a>
+    
+    <a href="admin.html" target="_blank">Admin Panel</a>
+   </nav>
+  </header>
+  
+  <section class="home">
+    <div class="home-image-container">
+      <div class="home-overlay-text">
+        <div class="hero-tagline">
+          <h1>Discover Events That Move You</h1>
+          <p class="quote-text">
+            "Every event is a memory waiting to happen find yours today and turn moments into milestones."
+          </p>
+        </div>
+        <form class="search-bar" role="search">
+          <input type="text" placeholder="Search for events..." name="search" />
+          <button type="submit" aria-label="Search">🔍</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="event-cards">
+    <div class="card">
+      <img src="dance.png" alt="Tiranga Utsav Event Image" />
+      <div class="card-info">
+        <h3>💃Dancing India</h3>
+        <p>🗓️ 17 Dec 2025<br>🕒Time(10:00 AM)<br>📍Bangalore</p>
+        <a href="./dance.html" class="book-btn" target="_blank">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="gaming.png" alt="DJ Party">
+      <div class="card-info">
+        <h3>🎮Gaming Tournaments</h3>
+        <p>🗓️ 27 July 2025<br>🕒Time(3:30 PM)<br>📍Goa</p>
+        <a href="./gaming.html" class="book-btn" target="_blank">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="standup.png" alt="Stand-Up Comedy">
+      <div class="card-info">
+        <h3>🎬Stand-Up Comedy</h3>
+        <p>🗓️ 02 Nov 2025<br>🕒Time(6:00 PM)<br>📍Delhi</p>
+        <a href="standup.html" class="book-btn" target="_blank">Book Now</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="music.png" alt="Dance Show">
+      <div class="card-info">
+        <h3>🎶Musical Fest</h3>
+        <p>🗓️ 17 Aug 2025<br>🕒Time(9:30 AM)<br>📍Hyderabad</p>
+        <a href="music.html" class="book-btn" target="_blank">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="event.js"></script>
+</body>
+</html>
+
